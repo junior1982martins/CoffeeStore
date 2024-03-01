@@ -1,0 +1,231 @@
+.cabecalho {
+    height: 100%;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 rem;
+    border-bottom: 1px solid #A45A49;
+
+} 
+
+.logo {
+    font-family: Teko;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    } 
+
+nav{
+    max-width: 1120px;
+    margin: auto;
+    padding: 8px 16px;   
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.cabecalho .menu li a {
+    color: #FFF2E780;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.cabecalho .menu li a:hover {
+    border-bottom: 2px solid #C7BAB3;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.principal {
+    background: #181012;
+}
+
+.hero {
+    max-width: 1120px;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 0 16px;
+    margin: auto;
+    overflow: clip;
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.destaque {
+    font-family: Epilogue;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.marrom {
+    color: #A45A49;
+}
+
+.amarelo {
+    color: #E7A80E;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+hr {
+    border-color: #A45A49;
+}
+
+.hero-subtitulo {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero-imagens-container {
+    max-width: 45%;
+    column-count: 3;
+    column-gap: 16px;
+}
+
+.hero-imagens-container>figure>img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.receitas {    
+    font-display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 48px 32px;
+    margin: auto;
+}
+
+.receitas-cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.receitas-titulo {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFF2E7;
+}
+
+.receitas-subtitulo {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.receitas-card-container {
+    padding: 16px 40px;
+    display: flex;
+    justify-content: center;
+    column-count: 2;
+    flex-wrap: wrap;
+    gap: 0 48px;
+}
+
+.card-a, .card-b, .card-c, .card-d, .card-e, .card-f{    
+    background: #241a1c;
+    box-shadow: 3px 3px 3px #A45A49;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    flex-basis: 464px;
+    margin-top: 32px;
+}
+
+.card-a:hover{
+    color: #FFF2E7;
+    background-color: #181012;
+}
+
+.card-b:hover{
+    color: #FFF2E7;
+    background-color: #181012;
+}
+
+.card-c:hover{
+    color: #FFF2E7;
+    background-color: #181012;
+}
+
+.card-d:hover{
+    color: #FFF2E7;
+    background-color: #181012;
+}
+
+.card-e:hover{
+    color: #FFF2E7;
+    background-color: #181012;
+}
+
+.card-f:hover {
+    color: #FFF2E7;
+    background-color: #181012;
+}
+
+.card-cabecalho-a, .card-cabecalho-b, .card-cabecalho-c, .card-cabecalho-d, .card-cabecalho-e, .card-cabecalho-f {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.card-detalhes-a, .card-detalhes-b, .card-detalhes-c, .card-detalhes-d, .card-detalhes-e, .card-detalhes-f {
+    display: flex;
+    flex-direction: column;
+    gap: px;
+}
+
+.avaliacao-a, .avaliacao-b, .avaliacao-c, .avaliacao-d, .avaliacao-e, .avaliacao-f {
+    color: #756A67;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer {
+    background: #181012;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px 10px;
+    text-transform: uppercase;
+}
+
+.footer-copy {
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
